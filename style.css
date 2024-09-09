@@ -107,14 +107,14 @@ button:hover {
 }
 
 .content-image {
-    width: initial;
-    height: initial;
+    width: 0%;
+    height: 0%;
 }
 
-@media only screen and (min-width: 400px) {
+@media screen and (min-width: 400px) {
     .content-image {
-        width: initial/100;
-        height:initial/100;
+        width: initial;
+        height:initial;
     }
 }
 
